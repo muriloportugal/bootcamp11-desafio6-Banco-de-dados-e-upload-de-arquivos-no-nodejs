@@ -6,7 +6,7 @@
 <p>
 
 ## Sobre:
-Continuamos o desenvolvimento do back-end de uma aplicação financeira que iniciamos no [**desafio 5**](https://github.com/muriloportugal/bootcamp11-desafio5-primeiro-projeto-nodejs), integramos o back-and com o banco de dados [Postgres](https://www.postgresql.org/) e adicinamos a funcionalidade de importar as transações atravéz do envio de um arquivo .csv.
+Continuamos o desenvolvimento do back-end de uma aplicação financeira que iniciamos no [**desafio 5**](https://github.com/muriloportugal/bootcamp11-desafio5-primeiro-projeto-nodejs), integramos o back-and com o banco de dados [Postgres](https://www.postgresql.org/) e adicinamos a funcionalidade de importar as transações atravéz do envio de um arquivo .csv, um arquivo de exemplo pode ser encontrado na pasta "tmp" na raiz do projeto.
 
 [Detalhes do desafio](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-database-upload)
 
