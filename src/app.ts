@@ -9,7 +9,9 @@ import AppError from './errors/AppError';
 
 import createConnection from './database';
 
-createConnection();
+createConnection().catch(error => {
+  console.log(`\nError when connecting to database!\n${error}`);
+});
 const app = express();
 
 app.use(express.json());
