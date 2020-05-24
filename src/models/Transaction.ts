@@ -24,6 +24,9 @@ class Transaction {
   @Column()
   type: 'income' | 'outcome';
 
+  @Column()
+  category_id: string;
+
   // Muitas transações para um usuário
   @ManyToOne(() => Category, { eager: true })
   @JoinColumn({ name: 'category_id' }) // Qual coluna vai identificar a categoria
